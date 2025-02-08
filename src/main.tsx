@@ -5,7 +5,7 @@ import App from './App';
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react'; // Importa PersistGate
-import { store, persistor } from '../src/slice/store'; // Importa a store e o persistor configurado
+import { store, persistor } from './store/store'; // Importa a store e o persistor configurado
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

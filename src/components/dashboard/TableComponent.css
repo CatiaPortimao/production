@@ -1,0 +1,96 @@
+/* Estilos gerais */
+.container {
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Filtros */
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-field, .select-field {
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Tabela */
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* Estilos para células da tabela */
+.table-cell {
+    text-align: center;
+}
+
+.separator {
+    color: gray;
+    margin: 0 5px;
+}
+
+/* Mensagens de erro e carregamento */
+.loading, .error-message {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between; /* Distribui o conteúdo entre o título e os filtros */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.box-title {
+    margin: 15;
+    font-size: 24px; /* Aumentando o tamanho do título */
+}
+
+.filter-right {
+    display: flex;
+    gap: 15px; /* Espaço maior entre os filtros */
+}
+
+.box-field {
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 5px;
+    width: 200px; /* Definindo uma largura fixa para os filtros */
+}
